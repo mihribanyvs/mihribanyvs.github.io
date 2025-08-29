@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Projects section</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- The main header used across all the pages of our website -->
+
+    <header>
+      <h1>Sections</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="projects/index.html">Projects</a></li>
+        <li><a href="thoughts/index.html">Thoughts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+    <!-- Our page's main content -->
+    <main>
+      <!-- An article -->
+    <article>
+    <section>    
+        <h3><a href="prot_former.html">ProtSpark</a></h3>
+        <p>
+        Designed a pipeline to analyze protein sequences coming from Protein Data Bank (PDB) using PySpark. 
+        Checked the cosine similarities between the sequences using embeddings from a pertained model (ProtBert). 
+        The dataset was about 10 GB. We used 3 Virtual Machines with CPU’s, which ran the whole program in about 20 minutes. 
+        For benchmarking we varied the number of cores, the size of the memory used and the number of workers.
+        </p>
+        <h3><a href="ising.html">Ising model on GPU</a></h3>
+        <p>
+        Simulated the Ising model using a Jetson Nano. Implemented two different ways to do the parallelization on the device 
+        and benchmarked the results.
+        </p>
+        <h3><a href="transformer.html">Transformer From Scratch for Protein Data</a></h3>
+        <p>
+        Designed a transformer to predict the folding structure of proteins using the sequence information embedded using 
+        the pertained ProtBert model. The model designed was aimed to understand the mechanics behind AlphaFold. 
+        Using a custom loss function we achieved not so high accuracies but we were able to reproduce most of the tertiary 
+        structures in addition to secondary structures.
+        </p>
+        <h3><a href="ultrametricPatterns.html">Ultrametric Patterns</a></h3>
+        <p>
+        Created ultra metric patterns and showed the storage capacity in a hop field network using these patterns.
+        </p>
+        <h3><a href="earthquakeAnalysis.html">Türkiye Earthquake Data Analysis</a></h3>
+        <p>
+        Worked on the earthquake measurement in Türkiye in the last 100 years. 
+        Implemented the Gutenberg-Richter Law to predict the future earthquakes. 
+        Analyzed the data as a time-series data. The results showed that the dataset is not a time-series and cannot be predicted as such.
+        </p>
+        <h3><a href="information.html">Information Bottleneck Theory in Deep Neural Networks</a></h3>
+        <p>
+        Created multiple networks for different datasets and trained them with changing the network parameters 
+        (activation functions, optimizers, loss functions). Estimate the mutual information between the input and the layers, 
+        between the layers and the labels to observe the learning in the information plane.
+        </p>
+        <h3><a href="colorization.html">Black&White Image colorization</a></h3>
+        <p>
+        Trained 2 CNN architectures on CIFAR dataset and try to predict the colorization of the images.
+        </p>
+        <h3><a href="purchaseTracker.html">Purchase Tracker</a></h3>
+        <p>
+        A small mobile app to keep track of my daily purchases.
+        </p>
+        
+
+    </section>
+    </article>
+    </main>
+
+
+    <footer>
+      <p>©Copyright 2025 by Mihriban. All rights reversed.</p>
+    </footer>
+  </body>
+</html>
