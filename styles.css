@@ -1,0 +1,53 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Italic;
+    src: url(fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+.container {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#3C3D37;
+}
+
+h2 {
+    font-family: Montserrat;
+    color:#697565;
+}
+
+h3 {
+    font-family: Montserrat;
+    color:#697565;
+}
+
+h4 {
+    font-family: Montserrat;
+    color:#697565;
+}
+
+h5{
+    font-family: Montserrat-Italic;
+    color:#8a9b85;
+}
+
+
+p{
+    font-family: Montserrat;
+    color:#1E201E;
+}
+
+ul{
+    font-family: Montserrat;
+    color:#1E201E;
+}
+
+
