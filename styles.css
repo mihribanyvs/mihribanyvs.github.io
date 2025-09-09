@@ -50,4 +50,45 @@ ul{
     color:#1E201E;
 }
 
+a {
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#3C3D37;
+}
 
+a:link {
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#4c4e45;
+}
+
+a:visited {
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#3C3D37;
+}
+
+a:focus {
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#3C3D37;
+}
+
+a:hover {
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#65675c;
+}
+
+a:active {
+    font-family: Montserrat;
+    font-weight: bold;
+    color:#3C3D37;
+}
+
+footer {
+  position: absolute;
+  margin-bottom: 0;
+  margin-left: 75%;
+  
+}
